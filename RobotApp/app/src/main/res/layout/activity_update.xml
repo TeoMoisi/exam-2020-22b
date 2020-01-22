@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        tools:context=".EntityDetailActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Age:"
+            android:ems="10"
+            android:id="@+id/ageUpdate"/>
+
+    <Button
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/updateAgeBtn"/>
+
+    <ProgressBar
+            android:id="@+id/progressBarUpdateAge"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+
+
+</LinearLayout>

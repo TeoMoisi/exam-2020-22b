@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:divider="@android:drawable/divider_horizontal_textfield"
+              android:showDividers="middle"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/name"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="Specs"
+            android:ems="10"
+            android:id="@+id/specs"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Height: "
+            android:ems="10"
+            android:id="@+id/height"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Type: "
+            android:ems="10"
+            android:id="@+id/type"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Age:"
+            android:ems="10"
+            android:id="@+id/age"/>
+    <Button
+            android:text="Send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/sendButton"/>
+    <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button4"/>
+
+
+    <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+
+</LinearLayout>
